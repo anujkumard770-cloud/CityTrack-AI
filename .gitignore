@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.env
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Database (local dev)
+*.db
+*.sqlite
+*.sqlite3
+
+# Model weights (large binary — download separately)
+backend/models_weights/*.pt
+backend/models_weights/*.onnx
+
+# Uploaded videos and processed files
+backend/uploads/*.mp4
+backend/uploads/*.avi
+backend/uploads/*.mov
+backend/uploads/*.mkv
+backend/processed/
+
+# Plate crops (potentially identifiable)
+backend/uploads/plate_crops/
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
