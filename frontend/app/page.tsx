@@ -18,7 +18,7 @@ const CityMap = dynamic(() => import("@/components/CityMap"), { ssr: false });
 const COLORS = ["#3b82f6", "#f59e0b", "#10b981", "#ef4444", "#8b5cf6"];
 
 function StatCard({ label, value, icon: Icon, sub, color = "blue" }: any) {
-  const bgMap: any = { blue: "bg-blue-50 text-blue-600", green: "bg-green-50 text-green-600", amber: "bg-amber-50 text-amber-600", purple: "bg-purple-50 text-purple-600" };
+  const bgMap: any = { blue: "bg-blue-50 text-blue-600", green: "bg-green-50 text-green-600", amber: "bg-amber-50 text-amber-600", purple: "bg-purple-50 text-purple-600" }; //bakgrund of map
   return (
     <div className="bg-white rounded-xl border border-gray-200 p-5 shadow-sm">
       <div className="flex items-start justify-between">
