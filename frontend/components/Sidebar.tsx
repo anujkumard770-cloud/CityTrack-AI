@@ -53,7 +53,7 @@ export default function Sidebar() {
 
       {/* Footer */}
       <div className="px-6 py-4 border-t border-slate-700 text-xs text-slate-500">
-        <p>Smart India Hackathon 2026</p>
+        <p>SIH 2026</p>
         <p className="mt-0.5">Bharat Electronics Limited</p>
       </div>
     </aside>
